@@ -11,10 +11,9 @@
 }
 
 .home img {
-    width: 74.65rem;
-    height: 40rem;
+    width: 100%;
+    height: auto;
 }
-
 
 .body {
     display: flex;
@@ -22,7 +21,7 @@
     justify-content: center;
     font-family: "Josefin Sans";
     color: rgb(64, 69, 119);
-    background-color:rgb(191, 196, 234);
+    background-color:rgb(195, 180, 147);
     border-radius: 5px;
     left: 10rem;
 }
@@ -33,19 +32,12 @@
     padding: 0 5rem;
     padding-bottom: 2rem;
     text-align: justify;
+    color: rgb(100, 87, 58);
 }
 
-.h5 {
-    display: flex;
-    /* justify-content: center; */
-    padding: 0 5rem;
-    padding-bottom: 2rem;
-    text-align: justify;
-    justify-content: space-between;
-}
 
 :is(.body-p) p::first-letter {
-    color: rgb(136, 127, 240);
+    color: rgb(195, 180, 147);
     font-size: 50px;
     float: left;
 }
