@@ -15,6 +15,19 @@
 
 </head>
 <body style="background-color: rgb(231, 228, 219);">
+    
+    <nav>
+        <div class="navbar">
+            <div class="nav">
+                <a href="#">HOME</a>
+                <a href="#table">COUNTRIES</a>
+                <a href="#form">FORM</a>
+            </div>
+        </div>
+    </nav>
+
+    </button>
+
     <div class="title">
         <h1><strong>Working Holiday VISA in</strong> <em>Aussie</em></h1>
     </div>
@@ -25,14 +38,12 @@
     
     <section>
         <div class="body">
-            <h2>yang perlu diketahui tentang <i>WHV!</i></h2>
+            <h2><p style="border: 3px double rgb(74, 90, 132)">yang perlu diketahui tentang <i>WHV!</i></p>
         </div>
 
-        <!-- COMMENT -->
-        <!-- remember to equip -->
         <div class="body-p">
             <p><em>Working Holiday VISA</em> <abbr title="Wokring Holiday VISA">WHV</abbr> merupakan izin tinggal sementara 
-               yang membberikan izin kepada wisatawan untuk mengambil pekerjaan di negara yang menerbitkan VISA 
+               yang memberikan izin kepada wisatawan untuk mengambil pekerjaan di negara yang menerbitkan VISA 
                untuk memfasilitasi kebutuhan pengeluaran mereka saat berwisata. Dapat dikatakan, bahwa program ini 
                tidak hanya berorientasi pada wisata, melainkan pekerjaan dan pengalaman, tentu dengan upah yang sesuai. 
                Dengan begitu, para pekerja dapat melaksanakan dua kegiatan sekaligus, yaitu bekerja dan berwisata.
@@ -45,6 +56,55 @@
                Hal ini tentunya menjadi warna baru bagi dunia pembelajaran, sekaligus membuka kesempatan dengan cara yang lebih unik dan menyenangkan.
                Tidak heran, <em>Working Holiday VISA</em> menjadi perbincangan hangat, serta berita yang paling ditunggu.
             </p>  
+        </div>
+
+        <div class="table" id="table">
+            <table>
+                <tr>
+                  <th>VISA</th>
+                  <th>Keterangan</th>
+                  <th>Persyaratan</th>
+                </tr>
+                <tr>
+                  <td>462</td>
+                  <td>Class</td>
+                  <td>Sertifikasi</td>
+                </tr>
+                <tr>
+                  <td>417</td>
+                  <td>Non-Class</td>
+                  <td>Non-Sertifikasi</td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="list">
+            <div class="462">
+                <ul>
+                    <h2>Negara Subclass 462</h2>
+                    <li>Argentina</li>
+                    <li>Austria</li>
+                    <li>China</li>
+                    <li>Republik Ceko</li>
+                    <li>Ekuador</li>
+                    <li>Mesir</li>
+                    <li>Hungaria</li>
+                    <li>Indonesia</li>
+                 </ul>
+            </div>
+            <div class="417">
+                <ul>
+                    <h2>Negara Subclass 417</h2>
+                    <li>Belgia</li>
+                    <li>Kanada</li>
+                    <li>Jerman</li>
+                    <li>Denmark</li>
+                    <li>Belanda</li>
+                    <li>Swedia</li>
+                    <li>Finlandia</li>
+                    <li>Republi Irlandia</li>
+                  </ul>
+            </div>
         </div>
 
         <div class="kegiatan">
@@ -99,17 +159,82 @@
         <div class="me">
             <h3> <em>find me</em></h3>
         </div>
-
-
     </section>
 
 
+<section>
     <footer>
         <div class="ig">
             <a href="https://www.instagram.com/memorscollec?igsh=MXIxdncwd2R3ZzB2ZQ==" target="_blank"> <i class='bx bxl-instagram'></i></a>
         </div>
     </footer>
 
+</section>
+
+
+<section>
+        <h2>TYPE HERE</h2>
     
+    <div class="container" id="form">
+        <form action="/action_page.php">
+
+            <div class="row">
+                <div class="col-25">
+                 <label for="fname">First Name</label>
+            </div>
+
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Nama Depan">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="lname">Last Name</label>
+            </div>
+
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Nama Belakang">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            </div>
+                <div class="row">
+                <div class="col-25">
+                 <label for="subject">A Word</label>
+             </div>
+
+
+            <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Pesan" style="height:200px"></textarea>
+            </div>
+
+            </div>
+                <br>
+                    <div class="row">
+                    <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</section>
+
+<div class="audio">
+    <audio controls autoplay>
+        <source src="audio/pj morton.mp3" type="audio/ogg">
+    </audio>
+</div>
+
 </body>
 </html>
