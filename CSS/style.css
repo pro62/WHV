@@ -13,13 +13,14 @@ html {
     margin-top: 4rem;
 }
 
-
+/* css syntax and css comments */
 .navbar .nav a {
     color: rgb(71, 76, 126);
     margin: 0 1rem;
     display: inline-block;
     text-decoration: none;
     padding-top: 1rem;
+    border: #beb895;
   }
 
   .navbar .nav a:hover {
@@ -64,9 +65,9 @@ html {
     align-items: center;
     justify-content: center;
     font-family: "Josefin Sans";
-    color: rgb(64, 69, 119);
-    background-color:rgb(195, 180, 147);
-    border-radius: 5px;
+    color: rgb(198, 183, 131);
+    background-color:rgb(47, 39, 90);
+    border-radius: 10px;
     left: 10rem;
 }
 
